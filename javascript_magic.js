@@ -11,6 +11,7 @@ $(document).ready(function(){
   	interval: 1000,
   	transition: 1000
   });
+   $(".button-collapse").sideNav();
 
 });
 

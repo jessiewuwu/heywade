@@ -11,15 +11,8 @@ nav {
 	padding-right: 50px;
 }
 
-h1 {
-  font-size: 2.5em;
-}
-
-nav a {
-  text-decoration: none;
-  float: right;
-  margin-right: 10px;
-  margin-top: 15px;
+.hide-on-med-and-down nav a {
+  /*text-decoration: none;*/
 }
 
 nav a .fa {
@@ -42,6 +35,39 @@ nav a .fa {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   line-height: 3;
+}
+
+nav .nav-wrapper .fa {
+	line-height: 2;
+}
+
+.hide-on-med-and-down li {
+	margin-right: 10px;
+}
+
+.hide-on-med-and-down li:hover {
+	background: none;
+}
+
+.side-nav a {
+	font-weight: 800;
+}
+
+.side-nav li:hover {
+	background: #F58585;
+}
+
+.side-nav a:hover {
+	color: white;
+}
+
+.material-icons.hamburger {
+	color: #e60000;
+}
+
+nav a.button-collapse i {
+	margin-right: 20px;
+	line-height: 62px;
 }
 
 /*---- main ----*/
@@ -76,7 +102,7 @@ nav a .fa {
 
 .city, .hey-boy {
   width: 80%;
-  margin: 5% auto;
+  margin: 30px auto 100px auto;
 }
 
 .city img {
@@ -105,7 +131,7 @@ nav a .fa {
 	float: right;
 }
 
-.activities h3 {
+.activities #activities-list h3 {
 	font-size: 18px;
 	font-weight: bold;
 	margin: 5px 0px;
@@ -115,11 +141,9 @@ nav a .fa {
 	margin-top: 5px;
 }
 
-.activities h1 {
+.centered {
 	text-align: center;
 }
-
-
 
 /*----- footer ----- */
 
@@ -134,5 +158,33 @@ footer {
   text-align: center;
 }
 
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+
+/*media queries*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  	.icon.icon.icon {
+  		width: 50px;
+  	}
+
+  	.wade-home {
+  		font-size: 3em;
+  		line-height: 1.5;
+  	}
+
+}
 
 

@@ -5,118 +5,164 @@
 	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-  <title>hey wa.de</title>
-  <link rel="stylesheet" href="stylez.css">
-  <script src="javascript_magic.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	</head>
+	<title>hey wa.de</title>
+	<link rel="stylesheet" href="stylez.css">
+	<script src="javascript_magic.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
 </head>
 <body>
+
 	<nav>
-	  <span class="wade-home">hey wa.de</span>
-	  <a class="btn-floating waves-effect waves-light red">
-	  	<i class="fa fa-envelope"></i>
-	  </a>
-	  <a class="btn-floating waves-effect waves-light red">
-	  	<i class="fa fa-linkedin"></i>
-	  </a>
-	 
-	  <a class="btn-floating waves-effect waves-light red">
-	  	<i class="fa fa-facebook"></i>
-	  </a>
-	  <a class="btn-floating waves-effect waves-light red">
-	  	<i class="fa fa-twitter"></i>
-	  </a>
-	 <a class="btn-floating waves-effect waves-light red">
-	 	<i class="fa fa-github"></i>
-	 </a>
+		<div class="nav-wrapper">
+			<span class="wade-home">hey wa.de</span>
+
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons hamburger">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li>
+					<a href="https://github.com/zeronoun" class="btn-floating waves-effect waves-light red">
+					<i class="fa fa-github"></i>
+					</a>
+				</li>
+				<li>
+					<a href ="https://twitter.com/noun" class="btn-floating waves-effect waves-light red">
+					<i class="fa fa-twitter"></i>
+					</a>
+				</li>
+				<li>	  
+					<a href ="https://www.facebook.com/zeronoun" class="btn-floating waves-effect waves-light red">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/heywade" class="btn-floating waves-effect waves-light red">
+						<i class="fa fa-linkedin"></i>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:justin.wade.webster@gmail.com?subject=Hey Wade!" class="btn-floating waves-effect waves-light red">
+						<i class="fa fa-envelope"></i>
+					</a>
+				</li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li>	 
+					<a href="https://github.com/zeronoun">
+					Github
+					</a>
+				</li>
+				<li>
+					<a href ="https://twitter.com/noun">
+					Twitter
+					</a>
+				</li>
+				<li>	  
+					<a href ="https://www.facebook.com/zeronoun">
+					Facebook
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/heywade">
+					LinkedIn
+					</a>
+				</li>
+				<li>
+					<a href="mailto:justin.wade.webster@gmail.com?subject=Hey Wade!">
+					Email
+					</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 
-	<div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="images/wade-1.jpg">
-      </li>
-      <li>
-        <img src="images/wade-2.jpg">
-        <div class="caption right-align">
-          <h1>hey!</h1>
-          <h5 class="light text-lighten-3">i'm wade</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-<!-- 	<div class="main">
-	  <img src="images/wade-1.jpg" alt="wade 1"><img src="images/wade-2.jpg" alt="wade 2">
-	</div>
- -->
-	<div class="clearfix"></div>
-	<div class="city row valign-wrapper">
-		<div class="col s12 m12 l8 description valign">
-			<h1>I live here...</h1>
-			<p>Wolf lo-fi deep v, etsy authentic yr beard single-origin coffee food truck master cleanse chillwave.  Retro neutra biodiesel, selfies semiotics kickstarter squid whatever plaid pour-over four dollar toast cray quinoa.  XOXO brunch meggings wolf yuccie, forage whatever waistcoat migas.  8-bit messenger bag intelligentsia forage.
-			</p>
+
+	<main>
+		<div class="slider">
+			<ul class="slides">
+				<li><img src="images/wade-1.jpg"></li>
+				<li>
+					<img src="images/wade-2.jpg">
+					<div class="caption right-align">
+						<h1>hey!</h1>
+						<h5 class="light text-lighten-3">i'm wade</h5>
+					</div>
+				</li>
+			</ul>
 		</div>
-		<div class="col s12 m12 l4 valign">
-			  <img class="ggbridge circle responsive-img" src="images/cropped_goldengatebridge.jpg">
+
+		<div class="clearfix"></div>
+		<div class="city row valign-wrapper">
+			<div class="col s12 m8 description valign">
+				<h3>I live here...</h3>
+				<p>Wolf lo-fi deep v, etsy authentic yr beard single-origin coffee food truck master cleanse chillwave.  Retro neutra biodiesel, selfies semiotics kickstarter squid whatever plaid pour-over four dollar toast cray quinoa.  XOXO brunch meggings wolf yuccie, forage whatever waistcoat migas.  8-bit messenger bag intelligentsia forage.
+				</p>
+			</div>
+			<div class="col s12 m4 valign">
+				<img class="ggbridge circle responsive-img" src="images/cropped_goldengatebridge.jpg">
 			</div>
 		</div>
-	</div>
 
-	<div class="hey-boy row valign-wrapper">
-		<div class="col s12 m12 l4 valign">
-		  <img src="https://media.giphy.com/media/JPKGyJavyoHZe/giphy.gif" alt="cemre" class="circle responsive-img cemre">
+		<div class="hey-boy row valign-wrapper">
+			<div class="col s12 m12 l4 valign">
+				<img src="https://media.giphy.com/media/JPKGyJavyoHZe/giphy.gif" alt="cemre" class="circle responsive-img cemre">
+			</div>
+			<div class="col s12 m12 l8 valign description">
+				<h3>... with this dude</h3>
+				<p>90's kale chips venmo marfa.  Sustainable heirloom meditation, retro small batch hoodie farm-to-table butcher.  Biodiesel hashtag neutra pabst, master cleanse +1 bespoke stumptown quinoa trust fund fashion axe offal chartreuse.
+				</p>
+			</div>
 		</div>
-		<div class="col s12 m12 l8 valign description">
-		  <h1>... with this dude</h1>
-		  <p>90's kale chips venmo marfa.  Sustainable heirloom meditation, retro small batch hoodie farm-to-table butcher.  Biodiesel hashtag neutra pabst, master cleanse +1 bespoke stumptown quinoa trust fund fashion axe offal chartreuse.
-		  </p>
-		</div>
-	</div>
 
-	<div class="activities">
-		<h1>and these are the things I do</h1>
-		<ul id="activities-list">
-			<li>
-				<div class="row valign-wrapper">
-					<div class="col offset-l1 l3 valign">
-						<img src="images/icon_product_mgmt.png" class="icon">
+		<div class="activities">
+			<h3 class="centered">and these are the things I do</h3>
+			<ul id="activities-list">
+				<li>
+					<div class="row valign-wrapper">
+						<div class="col offset-l1 l3 valign">
+							<img src="images/icon_product_mgmt.png" class="icon">
+						</div>
+						<div class="col l7 valign">
+							<h3>Product Management</h3>
+							<p>Direct trade  master cleanse tattooed twee.  Waistcoat raw denim affogato readymade celiac portland.  Raw denim brunch lomo, hoodie yr direct trade  umami kitsch beard literally thundercats tofu biodiesel quinoa yuccie.  Gluten-free tattooed cliche beard chartreuse occupy.</p>
+						</div>
 					</div>
-					<div class="col l7 valign">
-						<h3>Product Management</h3>
-						<p>Direct trade  master cleanse tattooed twee.  Waistcoat raw denim affogato readymade celiac portland.  Raw denim brunch lomo, hoodie yr direct trade  umami kitsch beard literally thundercats tofu biodiesel quinoa yuccie.  Gluten-free tattooed cliche beard chartreuse occupy.</p>
+				</li>
+				<li>
+					<div class="row valign-wrapper">
+						<div class="col offset-l1 l3 valign">
+							<img src="images/icon_cuffs.png" class="icon">
+						</div>
+						<div class="col l7 valign">
+							<h3>Law Enforcement</h3>
+							<p>Direct trade  master cleanse tattooed twee.  Waistcoat raw denim affogato readymade celiac portland.  Raw denim brunch lomo, hoodie yr direct trade  umami kitsch beard literally thundercats tofu biodiesel quinoa yuccie.  Gluten-free tattooed cliche beard chartreuse occupy.</p>
+						</div>
 					</div>
-				</div>
-			</li>
-			<li>
-				<div class="row valign-wrapper">
-					<div class="col offset-l1 l3 valign">
-						<img src="images/icon_cuffs.png" class="icon">
+				</li>
+				<li>
+					<div class="row valign-wrapper">
+						<div class="col offset-l1 l3 valign">
+							<img src="images/icon_mobile.png" class="icon">
+						</div>
+						<div class="col l7 valign">
+							<h3>Swift</h3>
+							<p>Direct trade  master cleanse tattooed twee.  Waistcoat raw denim affogato readymade celiac portland.  Raw denim brunch lomo, hoodie yr direct trade  umami kitsch beard literally thundercats tofu biodiesel quinoa yuccie.  Gluten-free tattooed cliche beard chartreuse occupy.</p>
+						</div>
 					</div>
-					<div class="col l7 valign">
-						<h3>Law Enforcement</h3>
-						<p>Direct trade  master cleanse tattooed twee.  Waistcoat raw denim affogato readymade celiac portland.  Raw denim brunch lomo, hoodie yr direct trade  umami kitsch beard literally thundercats tofu biodiesel quinoa yuccie.  Gluten-free tattooed cliche beard chartreuse occupy.</p>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="row valign-wrapper">
-					<div class="col offset-l1 l3 valign">
-						<img src="images/icon_mobile.png" class="icon">
-					</div>
-					<div class="col l7 valign">
-						<h3>Swift</h3>
-						<p>Direct trade  master cleanse tattooed twee.  Waistcoat raw denim affogato readymade celiac portland.  Raw denim brunch lomo, hoodie yr direct trade  umami kitsch beard literally thundercats tofu biodiesel quinoa yuccie.  Gluten-free tattooed cliche beard chartreuse occupy.</p>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</div>
+				</li>
+			</ul>
+		</div>
+	</main>
 
 	<footer>
-	  <p>&copy; 2015 Wade Webster &nbsp ᶘ ᵒᴥᵒᶅ </p>
+		<div class="footer-copyright">
+			<div class="container">
+				&copy; 2015 Wade Webster &nbsp ᶘ ᵒᴥᵒᶅ
+			</div>
+		</div>
 	</footer>
 
-</body>
-</html>
+	</body>
+	</html>
