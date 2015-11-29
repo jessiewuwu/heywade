@@ -1,0 +1,138 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
+/*---- nav bar----*/
+nav {
+	box-shadow: none;
+	background: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+nav a {
+  text-decoration: none;
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+nav a .fa {
+	font-size: 1em;
+}
+
+.btn-floating {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+}
+
+.btn-floating i {
+	line-height: 30px;
+}
+
+.wade-home {
+  font-size: 1.5em;
+  color: #e60000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  line-height: 3;
+}
+
+/*---- main ----*/
+
+.slider.slider.slider.slider {
+	height: 90vh !important;
+}
+
+.slides.slides.slides.slides {
+	height: 85vh !important;
+}
+
+.indicator-item.active.indicator-item.active.indicator-item.active {
+	background: #e60000;
+}
+
+.slider .indicators .indicator-item {
+	height: 10px;
+	width: 10px;
+}
+
+.caption h1 {
+	color: #e60000;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+
+.clearfix {
+	overflow: auto;
+}
+/*----- about // city // cemre------*/
+
+.city, .hey-boy {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.city img {
+	float: right;
+}
+
+.city .description,
+.hey-boy .description {
+/*  margin: 50px;*/
+}
+
+.city img, .cemre {
+  /*margin-top: 50px;*/
+  max-height: 250px;
+}
+
+/*---- activities -----*/
+
+.activities {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.activities .icon {
+	width: 20px;
+	float: right;
+}
+
+.activities h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 5px 0px;
+}
+
+.activities p {
+	margin-top: 5px;
+}
+
+.activities h1 {
+	text-align: center;
+}
+
+
+
+/*----- footer ----- */
+
+footer {
+  height: 30px;
+  /*line-height: 30px;*/
+  font-size: .8em;
+  background: #333;
+  color: white;
+  margin-top: 70px;
+  padding: 7px 30px;
+  text-align: center;
+}
+
+
+
