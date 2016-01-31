@@ -98,10 +98,23 @@ nav a.button-collapse i {
 .clearfix {
 	overflow: auto;
 }
+
+img.banner-img {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.slider .slides h5.light {
+  letter-spacing: 2px;
+}
 /*----- about // city // cemre------*/
 
 .city, .hey-boy {
-  width: 80%;
+  width: 65%;
   margin: 30px auto 100px auto;
 }
 
@@ -112,6 +125,12 @@ nav a.button-collapse i {
 .city .description,
 .hey-boy .description {
 /*  margin: 50px;*/
+  text-align: center;
+}
+
+.hey-boy .valign,
+.hey-boy div:first-child {
+  text-align: right;
 }
 
 .city img, .cemre {
@@ -122,13 +141,19 @@ nav a.button-collapse i {
 /*---- activities -----*/
 
 .activities {
-	width: 75%;
-	margin: 0 auto;
+	/*width: 75%;*/
+  padding: 2%;
+	margin: auto;
+  background: #efefef;
 }
 
 .activities .icon {
 	width: 20px;
 	float: right;
+}
+
+.activities #activities-list{
+  margin-top: 50px;
 }
 
 .activities #activities-list h3 {
@@ -139,6 +164,10 @@ nav a.button-collapse i {
 
 .activities p {
 	margin-top: 5px;
+}
+
+#activities-list{
+  margin-bottom: 0px;
 }
 
 .centered {
@@ -153,7 +182,7 @@ footer {
   font-size: .8em;
   background: #333;
   color: white;
-  margin-top: 70px;
+  /*margin-top: 70px;*/
   padding: 7px 30px;
   text-align: center;
 }
